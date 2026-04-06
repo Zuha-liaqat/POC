@@ -27,22 +27,19 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#F5F5F5] px-4">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-[#F5F5F5] px-4 ">
       {/* Card */}
-      <div className="w-full max-w-md bg-white rounded-xl shadow-md p-6 md:p-8 mt-8">
+      <div className="w-full max-w-md bg-white rounded-xl shadow-md p-6 md:px-8 py-14 mt-8">
         {/* Logo + Title */}
         <div className="text-center mb-6">
           <div className="w-12 h-12 mx-auto flex items-center justify-center mb-3">
-            <div className="w-22 h-22 rounded-lg flex items-center justify-center shrink-0">
-              <img src="/logo98.png" className="w-16 h-16" />
+            <div className="w-60 h-44 rounded-lg flex items-center justify-center shrink-0">
+              <img src="/Logo57.png" className="w-60 h-44" />
             </div>
           </div>
 
-          <h1 className="text-2xl font-semibold text-[#0F172A]">
-            Legacy Investment
-          </h1>
-
-          <p className="text-sm text-[#64748B]">
+         
+          <p className="text-sm text-[#64748B] mt-8">
             Elevate your real estate managment.
           </p>
         </div>

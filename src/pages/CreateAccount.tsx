@@ -29,7 +29,7 @@ const CreateAccount = () => {
           </div>
 
           <h1 className="text-2xl font-semibold text-[#0F172A]">
-            Legacy Investment
+            Alkan TecNEA
           </h1>
 
           <p className="text-sm text-[#64748B]">

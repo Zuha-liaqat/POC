@@ -22,15 +22,15 @@ export function AppSidebar() {
 
   const MenuContent = ({ onNavClick }: { onNavClick?: () => void }) => (
     <>
-      <div className="p-3 flex items-center gap-3 pt-4">
-        <div className="w-12 h-12 rounded-lg flex items-center justify-center shrink-0">
-          <img src={logo} className="w-12 h-12" />
+      <div className="p-3 flex items-center pt-4 gap-3">
+        <div className="w-16 h-14 rounded-lg flex items-start justify-start shrink-0">
+          <img src="/technea.png" className="w-16 h-14" />
         </div>
 
         {(!collapsed || onNavClick) && (
           <div>
             <h2 className="text-sm font-bold text-gray-800 leading-tight">
-              Legacy Investment
+              Alkan TecNEA
             </h2>
             <p className="text-[10px] text-gray-500">Core Engine</p>
           </div>
